@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:layout_width="281dp"
+        android:layout_height="128dp"
+        android:text="Bem Vindo"
+        android:textSize="40dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.769"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="154dp" />
+
+    <EditText
+        android:layout_width="188dp"
+        android:layout_height="31dp"
+        android:layout_marginTop="404dp"
+        android:background="@color/white"
+        android:hint="Email"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:layout_width="187dp"
+        android:layout_height="31dp"
+        android:layout_marginTop="452dp"
+        android:background="@color/white"
+        android:hint="Senha"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:layout_width="251dp"
+        android:layout_height="47dp"
+        android:text="Login"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:background="@drawable/borderradius"
+        tools:layout_editor_absoluteX="80dp"
+        tools:layout_editor_absoluteY="502dp" />
+
+
+</android.support.constraint.ConstraintLayout>

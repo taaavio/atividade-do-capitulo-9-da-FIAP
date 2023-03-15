@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/papel"
+    tools:context=".MainActivity2">
+
+
+    <Button
+        android:layout_width="251dp"
+        android:layout_height="47dp"
+        android:background="@drawable/borderradius"
+        android:text="@string/pr_mios"
+        android:textAlignment="textStart"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="52dp" />
+
+    <Button
+        android:layout_width="251dp"
+        android:layout_height="47dp"
+        android:background="@drawable/borderradius"
+        android:text="Ranking"
+        android:textAlignment="textStart"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="80dp"
+        tools:layout_editor_absoluteY="143dp" />
+
+    <Button
+        android:layout_width="251dp"
+        android:layout_height="47dp"
+        android:background="@drawable/borderradius"
+        android:text="Reciclagem"
+        android:textAlignment="textStart"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="329dp" />
+
+    <Button
+        android:layout_width="251dp"
+        android:layout_height="47dp"
+        android:background="@drawable/borderradius"
+        android:text="Atividade Física"
+        android:textAlignment="textStart"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="241dp" />
+
+    <Button
+        android:layout_width="251dp"
+        android:layout_height="47dp"
+        android:background="@drawable/borderradius"
+        android:text="Horta"
+        android:textAlignment="textStart"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="413dp" />
+
+    <Button
+        android:layout_width="251dp"
+        android:layout_height="47dp"
+        android:background="@drawable/borderradius"
+        android:text="Redução de Carbono"
+        android:textAlignment="textStart"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="497dp" />
+</android.support.constraint.ConstraintLayout>
